@@ -196,8 +196,8 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <label><b>Banner 1 - página de inicio</b></label>
-                                        <input id="imgInp2" type="file" class="form-control mb-4" name="banner">
-                                        <img id="blah2" src="{{asset('config/'.$config->banner)}}" style="width:100%">
+                                        <input id="imgInp2" type="file" class="form-control mb-4" name="banner_inicio_uno">
+                                        <img id="blah2" src="{{asset('config/'.$config->banner_inicio_uno)}}" style="width:100%">
                                     </div>
                                     <div class="col-lg-3">
                                         <label><b>Banner 2 - página de inicio</b></label>

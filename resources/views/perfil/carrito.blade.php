@@ -123,7 +123,7 @@
                     <div class="collapse show" id="total-estimate-section">
                         <form action="#">
                             <div class="form-group form-group-sm">
-                                <label>Direscciones</label>
+                                <label>Direcciones</label>
                                 <div class="select-custom">
                                     <select class="form-control form-control-sm" id="direccion">
                                         @foreach ($direcciones as $item)

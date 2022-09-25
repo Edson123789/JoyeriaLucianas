@@ -71,7 +71,7 @@
                 <div class="contact-info">
                     <div>
                         <i class="icon-mobile"></i>
-                        <p><a href="tel:">+51 934729545</a></p>
+                        <p><a href="tel:">+51 960538333</a></p>
                         <p>Lun – Sab / 8:00AM – 8:00PM</p>
                     </div>
                     <div>
