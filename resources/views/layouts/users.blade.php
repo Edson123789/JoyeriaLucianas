@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Keep Going</title>
+    <title>Joyería Luciana</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{asset('assets/images/icon.png')}}">
@@ -177,13 +177,13 @@
                         <div class="header-contact">
                             <span><i style="font-size: larger;" class="fab fa-whatsapp"></i> Contáctanos </span>
                             <!-- <a href="tel:#"><strong><i class="icon-phone"></i>{{$config->telefono}}</strong></a> -->
-                            <a href="https://api.whatsapp.com/send?phone=+51951217090"><strong> {{$config->telefono}}</strong></a>
+                            <a href="https://api.whatsapp.com/send?phone=+51934729545"><strong> {{$config->telefono}}</strong></a>
                         </div><!-- End .header-contact -->
-
+<!--
                         <div class="header-contact">
                             <span>ENVÍOS A TODO EL PERÚ! <br><i class="fas fa-truck"></i> 24 A 48 HORAS</span>
                         </div>
-
+-->
                         @if (Auth::check())
                         <div class="dropdown cart-dropdown">
                             <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
