@@ -123,7 +123,7 @@
                     <div class="collapse show" id="total-estimate-section">
                         <form action="#">
                             <div class="form-group form-group-sm">
-                                <label>Direcciones</label>
+                                <label>Direscciones</label>
                                 <div class="select-custom">
                                     <select class="form-control form-control-sm" id="direccion">
                                         @foreach ($direcciones as $item)
@@ -239,7 +239,7 @@
                                 total: '<?php echo $total ?>',
                                 currency: 'PEN'
                             },
-                            description: "Compras en KEEP GOING, TOTAL A PAGAR: S/.<?php echo $total ?>",
+                            description: "Compras en JOYERÍA LUCIANA, TOTAL A PAGAR: S/.<?php echo $total ?>",
                         }]
                     }
                 });

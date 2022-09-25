@@ -42,7 +42,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Pesas y Mancuernas</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                             <div class="card-product-img" style="background-image: url(assets/images/products/barras.jpg);">
                                 <div class="card-body">
                                     <h2 class="card-title-product">Barras</h2>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                             <div class="card-product-img" style="background-image: url(assets/images/products/dominadas.jpg);">
                                 <div class="card-body">
                                     <h2 class="card-title-product">Barras Dominadas</h2>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Discos</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Trotadoras</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Bicicletas Spinning</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Pesas Rusas</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Sogas profesionales</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Banca de Pesas</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Colchonetas</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Bandas resistencia</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Otros Accesarios</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -183,15 +183,16 @@
                     </a>
                 </figure>
                 <div class="product-details">
+                    <!--
                     <div class="ratings-container">
                         <div class="product-ratings">
-                            <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                            <span class="ratings" style="width:100%"></span>
                             <span class="tooltiptext tooltip-top"></span>
-                        </div><!-- End .product-ratings -->
-                    </div><!-- End .product-container -->
+                        </div>
+                    </div> End .product-container -->
                     <h2 class="product-title" style="text-align: center;">
                         <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
-                    </h2>
+                    </h2><!--
                     <div class="price-box">
                         <span class="product-price">
                             @if ($config->tipo_moneda == 'Soles')
@@ -202,10 +203,11 @@
 
                             {{$item->precio_ahora}}</span>
                         <del>{{$item->precio_antes}}</del>
-                    </div><!-- End .price-box -->
+                    </div> End .price-box -->
+                    <!--
                     <div class="product-action">
                         <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
-
+                        
                         <form action="{{route('agregar.carrito')}}" method="POST" style="margin:0 !important">
                             @csrf
                             <input type="hidden" name="cantidad" value="1">
@@ -213,7 +215,9 @@
                             <button class="btn-icon btn-add-cart" type="submit"><i class="icon-bag"></i>AL
                                 CARRITO</button>
                         </form>
+                        
                     </div>
+                    -->
                 </div><!-- End .product-details -->
             </div>
             @endforeach
@@ -285,7 +289,7 @@
     <section class="section p-5" id="features">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="carousel-title">KEEP GOING</h2>
+                <h2 class="carousel-title">JOYERÍA LUCIANA</h2>
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
@@ -357,6 +361,7 @@
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
+                            <!--
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -368,7 +373,8 @@
                                     {{$item->precio_ahora}}</span>
                                 <del>{{$item->precio_antes}}</del>
                             </div>
-
+                            -->
+                            <!--
                             <div class="product-action">
                                 <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
 
@@ -380,6 +386,7 @@
                                         CARRITO</button>
                                 </form>
                             </div>
+                            -->
                         </div><!-- End .product-details -->
                     </div>
                     @endforeach
@@ -396,21 +403,24 @@
                             </a>
                         </figure>
                         <div class="product-details">
+                            <!--
                             <div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                    <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div><!-- End .product-ratings -->
-                            </div><!-- End .product-container -->
+                                </div>
+                            </div> End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>
+                            <!--
                             <div class="ratings-container">
                                 <div class="product-ratings">
                                     <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
+                            
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -434,6 +444,7 @@
                                         CARRITO</button>
                                 </form>
                             </div>
+                            -->
                         </div><!-- End .product-details -->
                     </div>
                     @endforeach

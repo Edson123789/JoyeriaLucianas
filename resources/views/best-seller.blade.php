@@ -47,7 +47,7 @@
                                 @csrf
                                 <input type="hidden" name="cantidad" value="1">
                                 <input type="hidden" value="{{$item->id}}" name="idproducto">
-                                <button class="btn-icon btn-add-cart"  type="submit"><i class="icon-bag"></i>AL CARRITO</button>
+                                <button class="btn-icon btn-add-cart"  type="submit"><i class="icon-bag"></i>AL CARsRITO</button>
                             </form>
                         </div>
                     </div><!-- End .product-details -->

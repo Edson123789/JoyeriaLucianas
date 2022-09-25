@@ -70,7 +70,7 @@
     ?>
     <div class="page-wrapper">
         <header class="header">
-            <div class="header-top" style="background: #232f3e !important; color: white !important;border: none !important">
+            <div class="header-top" style="background: #000000 !important; color: white !important;border: none !important">
                 <div class="container">
                     <!-- <div class="header-left header-dropdowns">
                         <div class="header-dropdown">
@@ -148,12 +148,12 @@
                 </div><!-- End .container -->
             </div><!-- End .header-top -->
 
-            <div class="header-middle" style="background: #E02007">
+            <div class="header-middle" style="background: #F7EC03"><!-- previous color  #E02007-->
                 <div class="container">
                     <div class="header-left">
                         <a href="{{route('inicio')}}" class="logo">
-                            <!-- <img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> -->
-                            <img src="{{asset('assets/images/log.png')}}" alt="Logo" width="300" height="50">
+                             <img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> 
+                            <!--<img src="{{asset('assets/images/log.png')}}" alt="Logo" width="300" height="50">-->
 
                         </a>
                     </div><!-- End .header-left -->
@@ -177,13 +177,14 @@
                         <div class="header-contact">
                             <span><i style="font-size: larger;" class="fab fa-whatsapp"></i> Contáctanos </span>
                             <!-- <a href="tel:#"><strong><i class="icon-phone"></i>{{$config->telefono}}</strong></a> -->
-                            <a href="https://api.whatsapp.com/send?phone=+51934729545"><strong> {{$config->telefono}}</strong></a>
+                            <a href="https://api.whatsapp.com/send?phone=+51960538333"><strong> {{$config->telefono}}</strong></a>
                         </div><!-- End .header-contact -->
 <!--
                         <div class="header-contact">
                             <span>ENVÍOS A TODO EL PERÚ! <br><i class="fas fa-truck"></i> 24 A 48 HORAS</span>
                         </div>
 -->
+<!-- 
                         @if (Auth::check())
                         <div class="dropdown cart-dropdown">
                             <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
@@ -206,7 +207,7 @@
                                                     <span class="cart-product-qty">{{$item->cantidad}}</span>
                                                     x $<?php echo $item->precio_ahora * $item->cantidad ?>
                                                 </span>
-                                            </div><!-- End .product-details -->
+                                            </div>
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
@@ -220,7 +221,7 @@
                                                 </form>
 
                                             </figure>
-                                        </div><!-- End .product -->
+                                        </div>
                                         @endforeach
                                         @else
                                         <div class="product">
@@ -231,31 +232,33 @@
                                         @endif
 
 
-                                    </div><!-- End .cart-product -->
+                                    </div>
 
 
 
                                     <div class="dropdown-cart-action" style="margin-top:8px">
                                         <a href="{{route('carrito')}}" class="btn">Carrito completo</a>
-                                    </div><!-- End .dropdown-cart-total -->
-                                </div><!-- End .dropdownmenu-wrapper -->
-                            </div><!-- End .dropdown-menu -->
+                                    </div>
+                                </div>
+                            </div>
 
-                        </div><!-- End .dropdown -->
+                        </div>End .dropdown -->
                         @endif
                     </div><!-- End .header-right -->
                 </div><!-- End .container -->
             </div><!-- End .header-middle -->
 
-            <div class="header-bottom sticky-header" style="background: #232f3e !important; color: white !important;border: none !important">
+            <div class="header-bottom sticky-header" style="background: #000000 !important; color: white !important;border: none !important">
                 <div class="container">
                     <nav class="main-nav">
                         <ul class="menu sf-arrows">
                             <li><a class="item-primary" href="{{route('inicio')}}">Inicio</a></li>
                             <li><a class="item-primary" href="{{route('productos')}}">Productos</a></li>
+                            <!--
                             @if (auth::check())
                             <li><a href="{{route('mis_compras')}}" class="item-primary">Mis compras</a></li>
                             @endif
+-->
                             <li>
                                 <?php
 
@@ -270,23 +273,20 @@
                                         <div class="col-lg-8">
                                             <div class="row">
                                                 <div class="col-lg-6">
-                                                    <!-- <div class="menu-title">
-                                                        <a href="#">Filtro<span class="tip tip-new">New!</span></a>
-                                                    </div> -->
+                                                    
                                                     <ul>
                                                         @foreach ($categorias as $item)
                                                         <li><a href="{{route('productos.categoria',strtolower($item->titulo))}}"><i class="{{$item->icono}}"></i> {{$item->titulo}}</a></li>
                                                         @endforeach
                                                     </ul>
-                                                </div><!-- End .col-lg-6 -->
+                                                </div>
 
-                                            </div><!-- End .row -->
-                                        </div><!-- End .col-lg-8 -->
+                                            </div>
+                                        </div>
 
                                     </div>
-                                </div><!-- End .megamenu -->
+                                </div>
                             </li>
-
 
 
 
@@ -297,7 +297,7 @@
         </header><!-- End .header -->
         @yield('user-content')
 
-        <footer class="footer" style="background: #232f3e !important">
+        <footer class="footer" style="background: #000000!important"> <!-- previous color 232f3e  -->
             <div class="footer-middle">
                 <div class="container">
                     <div class="footer-ribbon" style="background: #E02007 !important">
@@ -312,10 +312,10 @@
                                         <span class="contact-info-label">Dirección:</span><?php echo $config->direccion ?>
                                     </li>
                                     <li>
-                                        <span class="contact-info-label">Teléfono:</span><a href="tel:+51923160484"><?php echo $config->telefono ?></a>
+                                        <span class="contact-info-label">Teléfono:</span><a href="tel:+51960538333"><?php echo $config->telefono ?></a>
                                     </li>
                                     <li>
-                                        <span class="contact-info-label">Correo:</span> <a href="mailto:aaqz1508@gmail.com"><?php echo $config->correo ?></a>
+                                        <span class="contact-info-label">Correo:</span> <a href="mailto:joyerialuciana.chacarilla@gmail.com"><?php echo $config->correo ?></a>
                                     </li>
                                     <li>
                                         <span class="contact-info-label">Atención:</span>
@@ -323,9 +323,9 @@
                                     </li>
                                 </ul>
                                 <div class="social-icons">
-                                    <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
-                                    <a href="https://www.instagram.com/keep_going_eirl/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
-                                    <a href="https://api.whatsapp.com/send?phone=+51951217090" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://www.facebook.com/Joyer%C3%ADa-Luciana-100366469182879" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                                    <a href="https://www.instagram.com/joyeria.luciana/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=+51960538333" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                 </div><!-- End .social-icons -->
                             </div><!-- End .widget -->
                         </div><!-- End .col-lg-3 -->
@@ -342,15 +342,15 @@
                                                 <ul class="links">
                                                     <li><a href="{{route('cuenta')}}"><i class="icon-chevron-right"></i>Perfil</a></li>
                                                     <li><a href="{{route('contacto')}}"><i class="icon-chevron-right"></i>Contáctanos</a></li>
-                                                    <li><a href="{{route('mis_compras')}}"><i class="icon-chevron-right"></i>Compras</a></li>
+                                                    <!--<li><a href="{{route('mis_compras')}}"><i class="icon-chevron-right"></i>Compras</a></li>-->
                                                 </ul>
                                             </div><!-- End .col-sm-6 -->
                                             <div class="col-sm-6 col-md-5">
                                                 <ul class="links">
-                                                    <li><a href="{{route('carrito')}}"><i class="icon-chevron-right"></i>Mi carrito</a></li>
+                                                    <!-- <li><a href="{{route('carrito')}}"><i class="icon-chevron-right"></i>Mi carrito</a></li>-->
                                                     <li><a href="{{route('productos')}}"><i class="icon-chevron-right"></i>Productos</a></li>
                                                     <li><a href="{{route('login.user')}}"><i class="icon-chevron-right"></i>Login</a></li>
-                                                </ul>
+                                                </ul><!-- -->
                                             </div><!-- End .col-sm-6 -->
                                         </div><!-- End .row -->
                                     </div><!-- End .widget -->
@@ -370,14 +370,15 @@
                                             </div><!-- End .col-sm-6 -->
                                             <div class="col-sm-6">
                                                 <ul class="links">
-                                                    <li><a href="#"><i class="icon-chevron-right"></i>Políticas de Garantía </a></li>
-                                                    <li><a href="#"><i class="icon-chevron-right"></i>Políticas de Privacidad</a></li>
+                                                    <!--<li><a href="#"><i class="icon-chevron-right"></i>Políticas de Garantía </a></li>-->
+                                                    <!--<li><a href="#"><i class="icon-chevron-right"></i>Políticas de Privacidad</a></li>
                                                 </ul>
                                             </div><!-- End .col-sm-6 -->
                                         </div><!-- End .row -->
                                     </div><!-- End .widget -->
                                 </div><!-- End .col-md-7 -->
                             </div>
+                            <!-- 
                             <div class="row">
                                 <div class="col-md-5">
                                     <h4 class="widget-title">SUSCRÍBETE</h4>
@@ -388,6 +389,7 @@
                                     </form>
                                 </div>
                             </div>
+                            -->
 
                         </div><!-- End .col-lg-9 -->
                     </div><!-- End .row -->
@@ -396,7 +398,7 @@
 
             <div class="container">
                 <div class="footer-bottom">
-                    <p class="footer-copyright">{{$config->titulo}}. &copy; 2020. Todos los derechos reservados.</p>
+                    <p class="footer-copyright">{{$config->titulo}}. &copy; 2022. Todos los derechos reservados.</p>
 
                     <img src="{{asset('assets/images/payments.png')}}" alt="payment methods" class="footer-payments">
                 </div><!-- End .footer-bottom -->
@@ -434,9 +436,9 @@
             </nav><!-- End .mobile-nav -->
 
             <div class="social-icons">
-                <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=+51951217090" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/keep_going_eirl/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+                <a href="https://www.facebook.com/Joyer%C3%ADa-Luciana-100366469182879" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+51960538333" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/joyeria.luciana/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
             </div><!-- End .social-icons -->
         </div><!-- End .mobile-menu-wrapper -->
     </div><!-- End .mobile-menu-container -->
@@ -460,7 +462,7 @@
 
     <div class="whatsapp">
         <div class="icono">
-            <a href="https://api.whatsapp.com/send?phone=+51951217090&amp;text=Buen%20d%C3%ADa%20quiero%20solicitar%20mas%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brindan%20" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=+51960538333&amp;text=Buen%20d%C3%ADa%20quiero%20solicitar%20mas%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brindan%20" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636.32 639.38">
                     <defs>
                         <style>

@@ -125,7 +125,7 @@
 
                     <ul class="list">
                         <li><a href="{{route('cuenta')}}" style="background-color: #eee;"><i class="icon icon-user"></i> Mi perfíl</a></li>
-                        <li class="active"><a><i class="icon icon-post"></i> Direcciones</a></li>
+                        <!-- <li class="active"><a><i class="icon icon-post"></i> Direcciones</a></li> -->
                     
                     </ul>
                 </div><!-- End .widget -->

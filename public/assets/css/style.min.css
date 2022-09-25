@@ -4529,7 +4529,7 @@ a:focus {
     width: 70px;
     height: 70px;
     border-radius: 100px;
-    background: #e30613;
+    background: #42EE18;
     -webkit-box-shadow: 3px 4px 20px -4px rgb(0 0 0 / 44%);
     box-shadow: 3px 4px 20px -4px rgb(0 0 0 / 44%);
     float: right;
@@ -4540,7 +4540,7 @@ a:focus {
 
 .icono a {
     display: block;
-    padding: 16px;
+    padding: 11px;
 }
 
 .globoinfo {

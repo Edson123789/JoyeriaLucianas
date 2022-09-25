@@ -372,6 +372,7 @@
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
+                            <!--
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -395,6 +396,7 @@
                                         CARRITO</button>
                                 </form>
                             </div>
+                            -->
                         </div><!-- End .product-details -->
                     </div>
                     @endforeach

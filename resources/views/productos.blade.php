@@ -105,7 +105,7 @@
                             </div><!-- End .widget-body -->
                         </div><!-- End .collapse -->
                     </div><!-- End .widget -->
-
+<!--
                     <div class="widget">
                         <h3 class="widget-title">
                             <a data-toggle="collapse" href="#widget-body-2" role="button" aria-expanded="true" aria-controls="widget-body-2">Precio</a>         
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-
+-->
 
 
                     <!-- <div class="widget">

@@ -40,13 +40,13 @@
 
                                 <div class="ratings-container">
                                     <div class="product-ratings">
-                                        <span class="ratings" style="width:60%"></span><!-- End .ratings -->
+                                        <span class="ratings" style="width:100%"></span><!-- End .ratings -->
                                     </div><!-- End .product-ratings -->
 
-                                    <a href="#" class="rating-link">( 6 Reviews )</a>
+                                    <!-- <a href="#" class="rating-link">( 6 Reviews )</a>-->
                                 </div><!-- End .product-container -->
 
-                                <div class="price-box">
+                                <!--<div class="price-box">
                                     <span class="old-price">
                                                  @if ($config->tipo_moneda == 'Soles')
                                                     S/.
@@ -62,9 +62,9 @@
                                             $
                                         @endif
                                         {{$producto->precio_ahora}}</span>
-                                </div><!-- End .price-box -->
+                                </div> End .price-box -->
 
-                                <div class="product-desc">
+                                <!--<div class="product-desc">
                                     <p class="text-justify">{{$producto->resena}}</p>
                                 </div>
 
@@ -73,10 +73,10 @@
                                     @if ($producto->stock < 5)
                                         <p style="color:#ff0000"><b>Quedan pocas unidades!</b></p>
                                     @endif
-                                </div>
+                                </div>-->
 
                                 
-
+                                <!--
                                @if (Auth::check())
                                     <form action="{{route('agregar.carrito')}}" method="POST">
                                         @csrf
@@ -113,7 +113,7 @@
                                     </div>
                                     
                                @endif
-
+                            -->
                                 
                             </div><!-- End .product-single-details -->
                         </div><!-- End .col-lg-5 -->
@@ -240,9 +240,10 @@
                             </a>
                         </div><!-- End .banner -->
                     </div><!-- End .widget -->
+                    <!--
 
                     <div class="widget widget-featured">
-                        <h3 class="widget-title">Ofertas</h3>
+                        <h3 class="widget-title">Más Productos</h3>
                         
                         <div class="widget-body">
                             <div class="owl-carousel widget-featured-products">
@@ -261,10 +262,10 @@
                                                 </h2>
                                                 <div class="ratings-container">
                                                     <div class="product-ratings">
-                                                        <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                                        <span class="ratings" style="width:100%"></span>
                                                         <span class="tooltiptext tooltip-top"></span>
-                                                    </div><!-- End .product-ratings -->
-                                                </div><!-- End .product-container -->
+                                                    </div>
+                                                </div>
                                                 <div class="price-box">
                                                     <span class="product-price">
                                                         @if ($config->tipo_moneda == 'Soles')
@@ -273,17 +274,17 @@
                                                             $
                                                         @endif
                                                         {{$item->precio_ahora}}</span>
-                                                </div><!-- End .price-box -->
-                                            </div><!-- End .product-details -->
+                                                </div>
+                                            </div>
                                         </div>
                                     @endforeach
                                
-                                </div><!-- End .featured-col -->
+                                </div>
 
                                 
-                            </div><!-- End .widget-featured-slider -->
-                        </div><!-- End .widget-body -->
-                    </div><!-- End .widget -->
+                            </div>
+                        </div>
+                    </div>  -->
                 </div>
             </aside><!-- End .col-md-3 -->
         </div><!-- End .row -->

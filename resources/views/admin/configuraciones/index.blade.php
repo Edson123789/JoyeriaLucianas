@@ -86,10 +86,10 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-12 form-group">
-                                        <label><b>Enlace de Twitter</b></label>
+                                        <label><b>Enlace de Instagram</b></label>
                                         <div class="input-group mb-2 mr-sm-2">
                                             <div class="input-group-prepend">
-                                                <div class="input-group-text" style="background: #00ade5;color: white;border: none;padding: 0 11px;"><i class="fab fa-twitter"></i></div>
+                                                <div class="input-group-text" style="background: #FF870F;color: white;border: none;padding: 0 11px;"><i class="fab fa-instagram"></i></div>
                                             </div>
                                             <input type="text"  required class="form-control" name="twitter" placeholder="Enlace de twitter" value="{{$config->twitter}}">
                                             @if ($errors->has('twitter'))
@@ -141,6 +141,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="col-lg-12 form-group">
                         <div class="card" style="background: #e8e8e8 !important">
                             <div class="card-header">
@@ -179,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-12">
                         <div class="card" style="background: #e8e8e8 !important">
                             <div class="card-header">
@@ -190,12 +191,13 @@
                                     <div class="col-lg-3">
                                         <label><b>Logo</b></label>
                                         <input id="imgInp1" type="file" class="form-control mb-4" name="logo">
-                                        <img id="blah1" src="{{asset('config/'.$config->logo)}}" style="width:100%">
+                                        <img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> 
+                                        <!--<img id="blah1" src="{{asset('config/'.$config->logo)}}" style="width:100%">-->
                                     </div>
                                     <div class="col-lg-3">
                                         <label><b>Banner 1 - página de inicio</b></label>
-                                        <input id="imgInp2" type="file" class="form-control mb-4" name="banner_inicio_uno">
-                                        <img id="blah2" src="{{asset('config/'.$config->banner_inicio_uno)}}" style="width:100%">
+                                        <input id="imgInp2" type="file" class="form-control mb-4" name="banner">
+                                        <img id="blah2" src="{{asset('config/'.$config->banner)}}" style="width:100%">
                                     </div>
                                     <div class="col-lg-3">
                                         <label><b>Banner 2 - página de inicio</b></label>
@@ -211,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--
                     <div class="col-lg-8">
                         <div class="card" style="background: #e8e8e8 !important">
                             <div class="card-header">
@@ -306,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
@@ -315,7 +317,7 @@
                             </div>
                         </div>
                     </div>
-    
+                    -->
                     <div class="col-lg-12">
                         <button class="btn btn-primary btn-lg" type="submit"><i class="fas fa-pen-alt"></i> Actualizar</button>
                     </div>
