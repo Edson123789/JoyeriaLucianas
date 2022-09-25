@@ -71,13 +71,13 @@
                 <div class="contact-info">
                     <div>
                         <i class="icon-mobile"></i>
-                        <p><a href="tel:">+51 923160484</a></p>
+                        <p><a href="tel:">+51 934729545</a></p>
                         <p>Lun – Sab / 8:00AM – 8:00PM</p>
                     </div>
                     <div>
                         <i class="icon-mail-alt"></i>
-                        <p><a href="mailto:#">aaqz1508@gmail.com</a></p>
-                        <p><a href="https://www.instagram.com/keep_going_eirl/">Instagran: Keep Going EIRL</a></p>
+                        <p><a href="mailto:#">exon123789@gmail.com</a></p>
+                        <p><a href="https://www.instagram.com/joyeria.luciana/">Instagran: JoyeriaLuciana</a></p>
                     </div>
                 </div><!-- End .contact-info -->
             </div><!-- End .col-md-4 -->

@@ -52,6 +52,7 @@
 					<li class="sidebar-header">
 						MENÚ
 					</li>
+					<!--
 					<li class="sidebar-item">
 						<a href="#dashboards" data-toggle="collapse" class="sidebar-link">
 							<i class="align-middle mr-2 fas fa-fw fa-home"></i> <span class="align-middle">Dashboards</span>
@@ -62,7 +63,7 @@
 							
 						</ul>
 					</li>
-					
+					-->
 
 					<li class="sidebar-item {{ request()->is('admin/productos') ? 'active' : '' }}">
 						<a class="sidebar-link" href="{{route('index.producto')}}">
@@ -74,16 +75,19 @@
 							<i class="align-middle mr-2 fas fa-fw fa-cog"></i> <span class="align-middle">Configuraciones</span>
 						</a>
 					</li>
+					<!--
 					<li class="sidebar-item {{ request()->is('admin/ventas/cancelaciones') ? 'active' : '' }}">
 						<a class="sidebar-link" href="{{route('cancelaciones')}}">
 							<i class="align-middle mr-2 fas fa-fw fa-ban"></i> <span class="align-middle">Cancelaciones</span>
 						</a>
 					</li>
+					
 					<li class="sidebar-item {{ request()->is('admin/ventas') ? 'active' : '' }}" >
 						<a class="sidebar-link" href="{{route('ventas.admin')}}">
 							<i class="align-middle mr-2 fas fa-fw fa-shopping-cart"></i> <span class="align-middle">Ventas</span>
 						</a>
 					</li>
+					-->
 					<li class="sidebar-item {{ request()->is('admin/mensajes') ? 'active' : '' }}" >
 						<a class="sidebar-link" href="{{route('mensajes')}}">
 							<i class="align-middle mr-2 fas fa-fw fa-envelope"></i> <span class="align-middle">Mensajes</span>

@@ -506,7 +506,7 @@
     </div>
     <div class="mb-4"></div><!-- margin -->
 
-
+<!-- 
     <div class="container text-center my-3">
         <h2 class="carousel-title">Rutinas de Ejercicio</h2>
         <div class="container mt-4">
@@ -600,7 +600,7 @@
             </div>
         </div>
     </div>
-
+-->
 
 
     <div class="mb-5"></div>
