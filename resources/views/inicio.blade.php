@@ -4,29 +4,28 @@
 
     <div class="home-slider owl-carousel owl-carousel-lazy owl-theme owl-theme-light">
         <div class="home-slide">
-            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-1.jpg"></div>
+            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-5.jpg"></div>
             <div class="home-slide-content text-white">
-                <h3>Obten hasta <span>20%</span> en</h3>
-                <h1>Todo Pesas y mancuernas</h1>
-                <p>Solo durante dos días.</p>
+                <h3 style ="color:black">Santiago de Surco - Urb. Chacarilla del estanque</h3>
+                <h3 style ="color:black">calle monte grande 120 - Centro Comercial Galax</h3>
+                <p style ="color:black"><span><i>oficina 228 - segundo piso</i></span> </p>
                 <a href="{{route('productos')}}" class="btn btn-dark">Ir a comprar</a>
             </div><!-- End .home-slide-content -->
         </div><!-- End .home-slide -->
         <div class="home-slide">
-            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-2.jpg"></div>
+            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-8.jpg"></div>
             <div class="home-slide-content text-white">
-                <h3>Accesorios Fitness <span>Exclusivos</span></h3>
-                <h1>Nuevos diseños</h1>
-                <p>Variedad de productos.</p>
+                <h3 style ="color:black">Compramos joyas de oro de <span> 21k 18k 14k 10k,</span></h3><br>
+                <p style ="color:black"><i>Joyas con piedras preciosas - brillantes - Plateria <br> Monedas de oro y Plata - Relojes de alta gama suizos.</i></p>
                 <a href="{{route('productos')}}" class="btn btn-dark">Ir a comprar</a>
             </div><!-- End .home-slide-content -->
         </div><!-- End .home-slide -->
         <div class="home-slide">
-            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-3.jpg"></div>
+            <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-13.jpg"></div>
             <div class="home-slide-content text-white">
-                <h3>Sets <span>Completos</span> de GYM en casa</h3>
-                <h1>Totalmente equipados</h1>
-                <p>y en la comodidad de tu hogar.</p>
+            <h3 style ="color:black">Santiago de Surco - Urb. Chacarilla del estanque</h3>
+                <h3 style ="color:black">calle monte grande 120 - Centro Comercial Galax</h3>
+                <p style ="color:black"><span><i>oficina 228 - segundo piso</i></span> </p>
                 <a href="{{route('productos')}}" class="btn">Ir a comprar</a>
             </div><!-- End .home-slide-content -->
         </div><!-- End .home-slide -->
@@ -38,27 +37,27 @@
                 <div class="carousel-item py-5 active">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/pesas.jpg); ">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/joya.jpg); ">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Pesas y Mancuernas</h2>
+                                    <h2 class="card-title-product">Joyas con piedras preciosas</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/barras.jpg);">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/brillantes.jpg);">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Barras</h2>
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <h2 class="card-title-product">Brillantes</h2>
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/dominadas.jpg);">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/plateria.jpg);">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Barras Dominadas</h2>
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <h2 class="card-title-product">Platería</h2>
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -67,34 +66,35 @@
                 <div class="carousel-item py-5">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/discos.jpg);">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/monedas.jpg);">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Discos</h2>
+                                    <h2 class="card-title-product">Monedas de oro y plata</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/trotadoras.jpg);">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/relojes.jpg);">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Trotadoras</h2>
+                                    <h2 class="card-title-product">Relojes de alta gama</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card-product-img" style="background-image: url(assets/images/products/spinning.jpg);">
+                            <div class="card-product-img" style="background-image: url(assets/images/products/otros2.jpg);">
                                 <div class="card-body">
-                                    <h2 class="card-title-product">Bicicletas Spinning</h2>
+                                    <h2 class="card-title-product">Otros productos</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="carousel-item py-5 ">
                     <div class="row">
                         <div class="col-sm-4">
@@ -102,7 +102,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Pesas Rusas</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Sogas profesionales</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Banca de Pesas</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Colchonetas</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Bandas resistencia</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -151,12 +151,12 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Otros Accesarios</h2>
 
-                                    <!-- <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
+                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="col-12 mb-2">
@@ -183,16 +183,15 @@
                     </a>
                 </figure>
                 <div class="product-details">
-                    <!--
                     <div class="ratings-container">
                         <div class="product-ratings">
-                            <span class="ratings" style="width:100%"></span>
+                            <span class="ratings" style="width:100%"></span><!-- End .ratings -->
                             <span class="tooltiptext tooltip-top"></span>
-                        </div>
-                    </div> End .product-container -->
+                        </div><!-- End .product-ratings -->
+                    </div><!-- End .product-container -->
                     <h2 class="product-title" style="text-align: center;">
                         <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
-                    </h2><!--
+                    </h2>
                     <div class="price-box">
                         <span class="product-price">
                             @if ($config->tipo_moneda == 'Soles')
@@ -203,11 +202,10 @@
 
                             {{$item->precio_ahora}}</span>
                         <del>{{$item->precio_antes}}</del>
-                    </div> End .price-box -->
-                    <!--
+                    </div><!-- End .price-box -->
                     <div class="product-action">
                         <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                        
+
                         <form action="{{route('agregar.carrito')}}" method="POST" style="margin:0 !important">
                             @csrf
                             <input type="hidden" name="cantidad" value="1">
@@ -215,9 +213,7 @@
                             <button class="btn-icon btn-add-cart" type="submit"><i class="icon-bag"></i>AL
                                 CARRITO</button>
                         </form>
-                        
                     </div>
-                    -->
                 </div><!-- End .product-details -->
             </div>
             @endforeach
@@ -289,7 +285,7 @@
     <section class="section p-5" id="features">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="carousel-title">JOYERÍA LUCIANA</h2>
+                <h2 class="carousel-title">KEEP GOING</h2>
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
@@ -361,7 +357,6 @@
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
-                            <!--
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -373,8 +368,7 @@
                                     {{$item->precio_ahora}}</span>
                                 <del>{{$item->precio_antes}}</del>
                             </div>
-                            -->
-                            <!--
+
                             <div class="product-action">
                                 <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
 
@@ -386,7 +380,6 @@
                                         CARRITO</button>
                                 </form>
                             </div>
-                            -->
                         </div><!-- End .product-details -->
                     </div>
                     @endforeach
@@ -403,24 +396,21 @@
                             </a>
                         </figure>
                         <div class="product-details">
-                            <!--
                             <div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span>
+                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div>
-                            </div> End .product-container -->
+                                </div><!-- End .product-ratings -->
+                            </div><!-- End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>
-                            <!--
                             <div class="ratings-container">
                                 <div class="product-ratings">
                                     <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
-                            
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -444,7 +434,6 @@
                                         CARRITO</button>
                                 </form>
                             </div>
-                            -->
                         </div><!-- End .product-details -->
                     </div>
                     @endforeach
