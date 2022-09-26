@@ -152,9 +152,8 @@
                 <div class="container">
                     <div class="header-left">
                         <a href="{{route('inicio')}}" class="logo">
-                             <img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> 
-                            <!--<img src="{{asset('assets/images/log.png')}}" alt="Logo" width="300" height="50">-->
-
+                             <!--<img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> -->
+                            <img src="{{asset('assets/images/log.png')}}" alt="Logo" width="300" height="50">
                         </a>
                     </div><!-- End .header-left -->
 
@@ -184,66 +183,8 @@
                             <span>ENVÍOS A TODO EL PERÚ! <br><i class="fas fa-truck"></i> 24 A 48 HORAS</span>
                         </div>
 -->
-<!-- 
-                        @if (Auth::check())
-                        <div class="dropdown cart-dropdown">
-                            <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-                                <span class="cart-count"><?php echo $num_compras ?></span>
-                            </a>
-
-                            <div class="dropdown-menu">
-                                <div class="dropdownmenu-wrapper">
-                                    <div class="dropdown-cart-products">
-
-                                        @if (count($carrito)>0)
-                                        @foreach ($carrito as $item)
-                                        <div class="product">
-                                            <div class="product-details">
-                                                <h4 class="product-title">
-                                                    <a href="product.html">{{$item->titulo}}</a>
-                                                </h4>
-
-                                                <span class="cart-product-info">
-                                                    <span class="cart-product-qty">{{$item->cantidad}}</span>
-                                                    x $<?php echo $item->precio_ahora * $item->cantidad ?>
-                                                </span>
-                                            </div>
-
-                                            <figure class="product-image-container">
-                                                <a href="product.html" class="product-image">
-                                                    <img src="{{asset('poster/'.$item->poster)}}" alt="product">
-                                                </a>
-                                                <form action="{{route('quitar.carrito',$item->id)}}" method="POST" style="margin-bottom: 0px !important; cursor:pointer">
-                                                    @csrf
-
-                                                    <input name="_method" type="hidden" value="DELETE">
-                                                    <button type="submit" class="btn-remove" title="Eliminar producto"><i class="icon-cancel"></i></button>
-                                                </form>
-
-                                            </figure>
-                                        </div>
-                                        @endforeach
-                                        @else
-                                        <div class="product">
-                                            <div class="product-details">
-                                                <h4>Carrito vacio :(</h4>
-                                            </div>
-                                        </div>
-                                        @endif
-
-
-                                    </div>
-
-
-
-                                    <div class="dropdown-cart-action" style="margin-top:8px">
-                                        <a href="{{route('carrito')}}" class="btn">Carrito completo</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>End .dropdown -->
-                        @endif
+ 
+                        
                     </div><!-- End .header-right -->
                 </div><!-- End .container -->
             </div><!-- End .header-middle -->
