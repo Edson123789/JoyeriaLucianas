@@ -194,6 +194,7 @@
                                         <img src="{{asset('config/'.$config->logo)}}" alt="Logo" width="181" height="51"> 
                                         <!--<img id="blah1" src="{{asset('config/'.$config->logo)}}" style="width:100%">-->
                                     </div>
+                                    <!--
                                     <div class="col-lg-3">
                                         <label><b>Banner 1 - página de inicio</b></label>
                                         <input id="imgInp2" type="file" class="form-control mb-4" name="banner_inicio_uno">
@@ -209,6 +210,7 @@
                                         <input id="imgInp4" type="file" class="form-control mb-4" name="banner_producto">
                                         <img id="blah4" src="{{asset('config/'.$config->banner_producto)}}"  style="width:100%">
                                     </div>
+                                    -->
                                 </div>
                             </div>
                         </div>

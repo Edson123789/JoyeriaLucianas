@@ -41,7 +41,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Joyas con piedras preciosas</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                             <div class="card-product-img" style="background-image: url(assets/images/products/brillantes.jpg);">
                                 <div class="card-body">
                                     <h2 class="card-title-product">Brillantes</h2>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                             <div class="card-product-img" style="background-image: url(assets/images/products/plateria.jpg);">
                                 <div class="card-body">
                                     <h2 class="card-title-product">Platería</h2>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Monedas de oro y plata</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Relojes de alta gama</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Otros productos</h2>
 
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -183,15 +183,17 @@
                     </a>
                 </figure>
                 <div class="product-details">
+                    <!-- 
                     <div class="ratings-container">
                         <div class="product-ratings">
-                            <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                            <span class="ratings" style="width:100%"></span>
                             <span class="tooltiptext tooltip-top"></span>
-                        </div><!-- End .product-ratings -->
-                    </div><!-- End .product-container -->
+                        </div>
+                    </div>End .product-container -->
                     <h2 class="product-title" style="text-align: center;">
                         <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                     </h2>
+                    <!--
                     <div class="price-box">
                         <span class="product-price">
                             @if ($config->tipo_moneda == 'Soles')
@@ -202,7 +204,7 @@
 
                             {{$item->precio_ahora}}</span>
                         <del>{{$item->precio_antes}}</del>
-                    </div><!-- End .price-box -->
+                    </div> End .price-box 
                     <div class="product-action">
                         <a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
 
@@ -213,7 +215,7 @@
                             <button class="btn-icon btn-add-cart" type="submit"><i class="icon-bag"></i>AL
                                 CARRITO</button>
                         </form>
-                    </div>
+                    </div>-->
                 </div><!-- End .product-details -->
             </div>
             @endforeach
@@ -285,11 +287,11 @@
     <section class="section p-5" id="features">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="carousel-title">KEEP GOING</h2>
+                <h2 class="carousel-title">JOYERÍA LUCIANA</h2>
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
-                    <img src="assets/images/features-first-icon.png" class="center card-img-top">
+                    <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Garantía</h3>
                         <p class="card-text">Tu producto llegará según lo acordado.</p>
@@ -298,7 +300,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
-                    <img src="assets/images/features-first-icon.png" class="center card-img-top">
+                    <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Soporte</h3>
                         <p class="card-text">En línea 24/7 para resolver cualquier duda.</p>
@@ -307,7 +309,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
-                    <img src="assets/images/features-first-icon.png" class="center card-img-top">
+                    <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Escríbenos</h3>
                         <p class="card-text">Cualquier duda estamos dispuestos a atenderte.</p>
@@ -316,7 +318,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
-                    <img src="assets/images/features-first-icon.png" class="center card-img-top">
+                    <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">Nuestros Clientes</h3>
                         <p class="card-text"> Nos recomiendan, gracias por su preferencia!</p>
@@ -342,12 +344,12 @@
                             </a>
                         </figure>
                         <div class="product-details">
-                            <div class="ratings-container">
+                            <!--<div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                    <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div><!-- End .product-ratings -->
-                            </div><!-- End .product-container -->
+                                </div>
+                            </div> End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>
@@ -357,6 +359,7 @@
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
+                            <!--
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -379,8 +382,8 @@
                                     <button class="btn-icon btn-add-cart" type="submit"><i class="icon-bag"></i>AL
                                         CARRITO</button>
                                 </form>
-                            </div>
-                        </div><!-- End .product-details -->
+                            </div> End .product-details -->
+                        </div>
                     </div>
                     @endforeach
 
@@ -396,21 +399,23 @@
                             </a>
                         </figure>
                         <div class="product-details">
-                            <div class="ratings-container">
+                            <!-- <div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                    <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div><!-- End .product-ratings -->
-                            </div><!-- End .product-container -->
+                                </div>
+                            </div>End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>
+                            <!-- 
                             <div class="ratings-container">
                                 <div class="product-ratings">
                                     <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
                                 </div>
                             </div>
+                            
                             <div class="price-box">
                                 <span class="product-price">
                                     @if ($config->tipo_moneda == 'Soles')
@@ -433,8 +438,8 @@
                                     <button class="btn-icon btn-add-cart" type="submit"><i class="icon-bag"></i>AL
                                         CARRITO</button>
                                 </form>
-                            </div>
-                        </div><!-- End .product-details -->
+                            </div>End .product-details -->
+                        </div>
                     </div>
                     @endforeach
                 </div>
@@ -448,14 +453,14 @@
     </div>
     </div>
 
-
+    
     <div class="mb-3"></div>
     <section class="section" id="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
-                        <h2 style="color: white; font-size: xxx-large;">Si no te reta, no te cambia!</h2>
+                        <h2 style="color: white; font-size: xxx-large;">Compramos </h2>
                         <h3 style="color: white;">Es hora de empezar.</h3>
                     </div>
                 </div>
@@ -472,8 +477,7 @@
                         <i class="icon-clock"></i>
                         <div class="feature-box-content">
                             <h3>Beneficios</h3>
-                            <p>El ahorro de tiempo y la privacidad son los principales beneficios de tener un gimnasio en
-                                casa.</p>
+                            <p>texto</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Get in touch</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->
@@ -483,9 +487,8 @@
                     <div class="feature-box feature-box-simple text-center">
                         <i class="icon-star"></i>
                         <div class="feature-box-content">
-                            <h3>Rutinas</h3>
-                            <p>Seguir una rutina de ejercicios es crucial tanto para desahogarse como para fortalecer el
-                                sistema inmunitario.</p>
+                            <h3>Compras</h3>
+                            <p>texto</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Return Policy</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->
@@ -495,8 +498,8 @@
                     <div class="feature-box feature-box-simple text-center">
                         <i class="icon-check"></i>
                         <div class="feature-box-content">
-                            <h3>Empieza ahora</h3>
-                            <p>La situación actual no puede ser una excusa para volvernos sedentarios.</p>
+                            <h3>Pedidos</h3>
+                            <p>texto</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Lear More</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->

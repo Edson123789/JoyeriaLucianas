@@ -42,7 +42,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Pesas y Mancuernas</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Barras</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Barras Dominadas</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Discos</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Trotadoras</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Bicicletas Spinning</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Pesas Rusas</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Sogas profesionales</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Banca de Pesas</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Colchonetas</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Bandas resistencia</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title-product">Otros Accesarios</h2>
                                     <p class="card-text-product">Some make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>
+                                    <!--<a href="#" class="btn btn-product btn-primary" style="text-decoration: none;">Ver más</a>-->
                                 </div>
                             </div>
                         </div>
@@ -301,12 +301,12 @@
                             </a>
                         </figure>
                         <div class="product-details">
-                            <div class="ratings-container">
+                            <!--<div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                    <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div><!-- End .product-ratings -->
-                            </div><!-- End .product-container -->
+                                </div>
+                            </div> End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>
@@ -357,12 +357,13 @@
                             </a>
                         </figure>
                         <div class="product-details">
+                            <!--
                             <div class="ratings-container">
                                 <div class="product-ratings">
-                                    <span class="ratings" style="width:100%"></span><!-- End .ratings -->
+                                    <span class="ratings" style="width:100%"></span>
                                     <span class="tooltiptext tooltip-top"></span>
-                                </div><!-- End .product-ratings -->
-                            </div><!-- End .product-container -->
+                                </div>
+                            </div> End .product-container -->
                             <h2 class="product-title" style="text-align: center;">
                                 <a href="{{route('producto',$item->slug)}}" style="white-space: normal">{{$item->titulo}}</a>
                             </h2>

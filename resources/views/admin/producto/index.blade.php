@@ -65,8 +65,8 @@
                             <thead class="thead-dark">
                                 <tr>
                                     <th>Titulo</th>
-                                    <th>Precio ahora</th>
-                                    <th>Stock</th>
+                                    <!--<th>Precio ahora</th>
+                                    <th>Stock</th>-->
                                     <th>Opciones</th>
                                 </tr>
                             </thead>
@@ -76,8 +76,8 @@
                                     <td>
                                         <img src="{{asset('poster/'.$item->poster)}}" width="48" height="48" class=" mr-2" alt="Avatar"> {{$item->titulo}}
                                     </td>
-                                    <td><b>S/.</b> {{$item->precio_ahora}}</td>
-                                    <td>{{$item->stock}} unidades</td>
+                                    <!--<td><b>S/.</b> {{$item->precio_ahora}}</td>-->
+                                    <!--<td>{{$item->stock}} unidades</td>-->
                                     <td>
                                         <div class="btn-group">
 											<button type="button" class="btn mb-1 btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -85,7 +85,7 @@
                                             </button>
 											<div class="dropdown-menu">
 												<a class="dropdown-item" href="{{route('edit.producto',$item->slug)}}"><i class="fas fa-edit"></i> Editar detalles</a>
-												<a class="dropdown-item" data-toggle="modal" data-target="#stock-{{$item->id}}"><i class="fas fa-socks"></i> Aumentar stock</a>
+												<!--<a class="dropdown-item" data-toggle="modal" data-target="#stock-{{$item->id}}"><i class="fas fa-socks"></i> Aumentar stock</a>-->
 												<a class="dropdown-item" href="{{route('galeria.producto',$item->slug)}}"><i class="fas fa-images"></i> Galería</a>
 												<div class="dropdown-divider"></div>
 												<a class="dropdown-item" data-toggle="modal" data-target="#modal-{{$item->id}}">Eliminar producto</a>
