@@ -15,7 +15,7 @@
         <div class="home-slide">
             <div class="owl-lazy slide-bg" data-src="assets/images/slider/slide-8.jpg"></div>
             <div class="home-slide-content text-white">
-                <h3 style ="color:black">Compramos joyas de oro de <span> 21k 18k 14k 10k,</span></h3><br>
+                <h3 style ="color:black"> <span>Compramos joyas de oro de 21k 18k 14k 10k,</span></h3><br>
                 <p style ="color:black"><i>Joyas con piedras preciosas - brillantes - Plateria <br> Monedas de oro y Plata - Relojes de alta gama suizos.</i></p>
                 <a href="{{route('productos')}}" class="btn btn-dark">Ir a comprar</a>
             </div><!-- End .home-slide-content -->
@@ -287,14 +287,16 @@
     <section class="section p-5" id="features">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="carousel-title">JOYERÍA LUCIANA</h2>
+                <h2 class="carousel-title">JOYERÍA LUCIANA MÁXIMAS TAZACIONES <br><br>
+                <a href="https://api.whatsapp.com/send?phone=+51960538333&amp;text=Buen%20d%C3%ADa%20quiero%20solicitar%20mas%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brindan%20" class="btn btn-product btn-primary" style="text-decoration: none;">Cotizar</a></h2>
+                
             </div>
             <div class="col-sm-3">
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
                     <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
-                        <h3 class="card-title">Garantía</h3>
-                        <p class="card-text">Tu producto llegará según lo acordado.</p>
+                        <h3 class="card-title">21K</h3>
+                        <p class="card-text">$45</p>
                     </div>
                 </div>
             </div>
@@ -302,8 +304,8 @@
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
                     <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
-                        <h3 class="card-title">Soporte</h3>
-                        <p class="card-text">En línea 24/7 para resolver cualquier duda.</p>
+                        <h3 class="card-title">18K</h3>
+                        <p class="card-text">$40</p>
                     </div>
                 </div>
             </div>
@@ -311,8 +313,8 @@
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
                     <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
-                        <h3 class="card-title">Escríbenos</h3>
-                        <p class="card-text">Cualquier duda estamos dispuestos a atenderte.</p>
+                        <h3 class="card-title">16K</h3>
+                        <p class="card-text">$35</p>
                     </div>
                 </div>
             </div>
@@ -320,8 +322,8 @@
                 <div class="card mb-3 text-center" style="border-radius: 25px;">
                     <img src="assets/images/icon.png" class="center card-img-top">
                     <div class="card-body">
-                        <h3 class="card-title">Nuestros Clientes</h3>
-                        <p class="card-text"> Nos recomiendan, gracias por su preferencia!</p>
+                        <h3 class="card-title">14K</h3>
+                        <p class="card-text">$30</p>
                     </div>
                 </div>
             </div>
@@ -460,8 +462,8 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
-                        <h2 style="color: white; font-size: xxx-large;">Compramos </h2>
-                        <h3 style="color: white;">Es hora de empezar.</h3>
+                        <h2 style="color: black; font-size: xxx-large;">Compramos </h2>
+                        <h3 style="color: black;">Nos dedicamos a la compra de todo tipo de joyas de oro y plata.</h3>
                     </div>
                 </div>
             </div>

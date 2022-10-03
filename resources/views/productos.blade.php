@@ -1,13 +1,13 @@
 @extends('layouts.users')
 @section('user-content')
 <main class="main">
-    <div class="banner banner-cat" style="background-image: url('/assets/images/banners/banner-top.jpg');">
+    <div class="banner banner-cat" style="background-image: url('/assets/images/banners/oro3.jpg');">
         <div class="banner-content container">
-            <h2 class="banner-subtitle">Gimmasios para <span>casa</span></h2>
-            <h1 class="banner-title">
-                Discos, Barras, Mancuernas
+            <h2 style="color:black" class="banner-subtitle"><span>Compramos joyas de oro</span></h2>
+            <h1 style="color:black" class="banner-title">
+            21k, 18k, 14k, 10k
             </h1>
-            <a href="{{route('productos')}}" class="btn btn-product" style="color: #fff;">Comprar ahora</a>
+            <a href="https://api.whatsapp.com/send?phone=+51960538333&amp;text=Buen%20d%C3%ADa%20quiero%20solicitar%20mas%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brindan%20" class="btn btn-product" style="color: #fff;">Cotizar ahora</a>
         </div><!-- End .banner-content -->
     </div><!-- End .banner -->
 

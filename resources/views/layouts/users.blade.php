@@ -176,7 +176,8 @@
                         <div class="header-contact">
                             <span><i style="font-size: larger;" class="fab fa-whatsapp"></i> Contáctanos </span>
                             <!-- <a href="tel:#"><strong><i class="icon-phone"></i>{{$config->telefono}}</strong></a> -->
-                            <a href="https://api.whatsapp.com/send?phone=+51960538333"><strong> {{$config->telefono}}</strong></a>
+                            <a href="https://api.whatsapp.com/send?phone=+51960538333&amp;text=Buen%20d%C3%ADa%20quiero%20solicitar%20mas%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brindan%20">
+                            <strong> 960 538 333</strong></a>
                         </div><!-- End .header-contact -->
 <!--
                         <div class="header-contact">
