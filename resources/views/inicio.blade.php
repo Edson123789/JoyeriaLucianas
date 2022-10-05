@@ -476,10 +476,10 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box feature-box-simple text-center">
-                        <i class="icon-clock"></i>
+                        <i class="icon-lock"></i>
                         <div class="feature-box-content">
-                            <h3>Beneficios</h3>
-                            <p>texto</p>
+                            <h3>Seguridad</h3>
+                            <p>Porqué nos preocupamos por tu seguridad y la de tus joyas nos encontramos ubicados en una zona centrica, además puedes hacer uso de nuestro servicio de tazaciones a domicilio sin costo adicional.</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Get in touch</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->
@@ -489,8 +489,8 @@
                     <div class="feature-box feature-box-simple text-center">
                         <i class="icon-star"></i>
                         <div class="feature-box-content">
-                            <h3>Compras</h3>
-                            <p>texto</p>
+                            <h3>Garentía y confianza</h3>
+                            <p>La garantía brindada en cada uno de nuestros servicios se ve reflejada en la confianza recibida por parte de nuestros cientos de clientes.</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Return Policy</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->
@@ -498,10 +498,10 @@
 
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box feature-box-simple text-center">
-                        <i class="icon-check"></i>
+                        <i class="icon-dollar"></i>
                         <div class="feature-box-content">
-                            <h3>Pedidos</h3>
-                            <p>texto</p>
+                            <h3>Pagos en efectivos y transferencias</h3>
+                            <p>Contamos con distintos medios para poder pagar tus joyas entre estos: pagos en efectivo, transferecias bancarias u otros como yape o plin.</p>
                             <!-- <a href="#" class="btn btn-outline-dark">Lear More</a> -->
                         </div><!-- End .feature-box-content -->
                     </div><!-- End .feature-box -->
